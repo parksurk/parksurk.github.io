@@ -1,5 +1,5 @@
 ---
-title: "DRL Monte Carlo Mothods"
+title: "DRL Dynamic Programming"
 excerpt: "심층강화학습(Deep Reinforcement Learning) Dynamic Programming 알고리즘에 대해 알아보자."
 date: 2018-12-10 00:00:01 -0400
 categories:
