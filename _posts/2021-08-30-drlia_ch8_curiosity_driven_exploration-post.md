@@ -1,6 +1,6 @@
 ---
-title: "DRL Distributioanl DQN"
-excerpt: "심층강화학습(Deep Reinforcement Learning) Evolutionary Strategies 알고리즘에 대해 알아보자."
+title: "DRL Curiosity-driven exploration"
+excerpt: "심층강화학습(Deep Reinforcement Learning) Curiosity-driven exploration 알고리즘에 대해 알아보자."
 date: 2021-08-30 10:00:10 -0400
 toc: true
 toc_sticky: true
