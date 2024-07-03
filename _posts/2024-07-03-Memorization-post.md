@@ -20,10 +20,10 @@ tags:
 
 
 
-# 1: Title Slide
+# 1: Introduction
 **Title: Understanding Memorization in Deep Learning Models**
 **Subtitle: Challenges and Solutions**
-**Presented by: [Your Name]**
+**Presented by: Surk Park**
 
 ** Explaination:**
 Welcome everyone. Today, we'll dive into an essential aspect of deep learning: the phenomenon of memorization. We'll explore what it is, why it happens, and how we can address it to improve model performance and generalization.
