@@ -22,15 +22,15 @@ tags:
 
 # 1: Understanding Memorization in Deep Learning Models**
 **Challenges and Solutions**
-**Presented by: Surk Park**
+**by Surk Park**
 
-** Explaination:**
+**Explaination:**
 Today, we'll dive into an essential aspect of deep learning: the phenomenon of memorization. We'll explore what it is, why it happens, and how we can address it to improve model performance and generalization.
 
 ---
 
 # 2: Introduction to Memorization in Deep Learning
-**Title: What is Memorization in Deep Learning?**
+**What is Memorization in Deep Learning?**
 - Definition: Memorization occurs when a model learns the training data too well, capturing noise and details instead of general patterns.
 - Impact: Leads to poor generalization on unseen data.
 
@@ -40,7 +40,7 @@ Memorization in deep learning is when models overfit to the training data, learn
 ---
 
 # 3: Causes of Memorization
-**Title: Causes of Memorization**
+**Causes of Memorization**
 - Overfitting due to insufficient data
 - Excessive model complexity
 - Lack of regularization techniques
@@ -62,7 +62,7 @@ Key indicators of memorization include a high training accuracy but low validati
 ---
 
 # 5: Example of Memorization
-**Title: Example of Memorization**
+**Example of Memorization**
 - Image classification task with a small dataset
 - Model learns specific details of images rather than general features
 
@@ -72,7 +72,7 @@ Consider an image classification task with a small dataset. If a model memorizes
 ---
 
 # 6: Techniques to Reduce Memorization
-**Title: Techniques to Reduce Memorization**
+**Techniques to Reduce Memorization**
 - Data Augmentation
 - Dropout
 - Regularization (L1, L2)
@@ -84,7 +84,7 @@ To mitigate memorization, several techniques can be employed: data augmentation 
 ---
 
 # 7: Data Augmentation
-**Title: Data Augmentation**
+**Data Augmentation**
 - Rotations, translations, and flips
 - Synthetic data generation
 - Enhances model generalization
@@ -110,7 +110,7 @@ train_loader = torch.utils.data.DataLoader(train_dataset, batch_size=64, shuffle
 ---
 
 # 8: Regularization Techniques
-**Title: Regularization Techniques**
+**Regularization Techniques**
 - L1 Regularization: Encourages sparsity
 - L2 Regularization: Prevents large weights
 - Dropout: Randomly drops neurons during training
@@ -137,7 +137,7 @@ optimizer = torch.optim.SGD(model.parameters(), lr=0.01, weight_decay=1e-4)  # L
 ---
 
 # 9: Cross-Validation
-**Title: Cross-Validation**
+**Cross-Validation**
 - K-fold cross-validation
 - Helps detect overfitting
 - Provides a more accurate estimate of model performance
@@ -163,11 +163,10 @@ for train_index, val_index in kf.split(X):
 ---
 
 # 10: Conclusion and Future Directions
-**Title: Conclusion and Future Directions**
+**Conclusion and Future Directions**
 - Summary of key points
 - Importance of addressing memorization
 - Future research in adaptive regularization techniques
 
 **Script:**
 In conclusion, memorization in deep learning models poses significant challenges to generalization. By employing techniques like data augmentation, regularization, and cross-validation, we can reduce memorization and improve model performance. Future research should focus on developing adaptive regularization techniques to further enhance model robustness.
-```
