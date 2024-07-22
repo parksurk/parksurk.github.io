@@ -112,7 +112,7 @@ RMSE는 예측된 값과 실제 값 간의 평균편차를 측정하는 지표�
 - **낮은 RMSE 값**: RMSE 값이 낮을수록 모델의 예측 성능이 우수함을 의미합니다.
 
 ##### 계산 방법
-![RMSE](./images/rmse-desc.png)
+![RMSE](/assets/images/2024-07-21-UpStageAILAB-1st-Competition-ML-REGRESSION-post/rmse-desc.png)
 
 ##### 맥락
 아파트 매매의 맥락에서 RMSE는 회귀 모델이 실제 거래 가격과 얼마나 일치하는지를 정량적으로 나타내며, 예측 모델의 성능을 평가하는 데 중요한 역할을 합니다.
@@ -336,11 +336,11 @@ Feature Association Metrix의 주목할만한 이점 중 일부는 다음과 같
 - 피쳐쌍별로 연관 클러스터의 패밀리를 감지합니다.
 - 모델을 구축하기 전에 연관성이 높은 특징의 클러스터를 식별합니다.
 
-![Feature Association Metrix](./images/Feature-Association-Metrix.png)
+![Feature Association Metrix](/assets/images/2024-07-21-UpStageAILAB-1st-Competition-ML-REGRESSION-post/Feature-Association-Metrix.png)
 
 또한 타겟 피쳐와의 상관 관계도 고려하여야 합니다. 이 때 사용되는 것이 Feature Importance 입니다.
 
-![Feature Importance](./images/Feature-Importance.png)
+![Feature Importance](/assets/images/2024-07-21-UpStageAILAB-1st-Competition-ML-REGRESSION-post/Feature-Importance.png)
 
 ##### Input Features
 이러한 과정을 통해서 최종 선택된 입력 피쳐는 다음과 같습니다.
@@ -368,7 +368,7 @@ Feature Association Metrix의 주목할만한 이점 중 일부는 다음과 같
 ##### Target Feature
 EDA 과정에서 타겟 피쳐는 'target'이고 아래 그래프를 보면 편향되어 있는 것을 볼 수 있습니다. 피쳐 엔지니어링 과정에서 타겟 값을 표준화하거나 정규화하는 방법을 고려했습니다.
 
-![Feature Target Histogram](./images/Feature-target-Histogram.png)
+![Feature Target Histogram](/assets/images/2024-07-21-UpStageAILAB-1st-Competition-ML-REGRESSION-post/Feature-target-Histogram.png)
 
 
 ## 5. Modeling
@@ -384,7 +384,7 @@ EDA 과정에서 타겟 피쳐는 'target'이고 아래 그래프를 보면 편�
 추가 모델 검증을 위해 나머지 데이터는 5개의 교차 검증 파티션으로 나뉩니다. 대규모 데이터세트로 작업할 때 발생하는 오버헤드를 보상하기 위해 먼저 데이터의 작은 부분에 대해 모델을 학습하고 하나의 교차 검증 접기만 사용하여 모델 성능을 평가합니다.
 다음 그림은 CV 프로세스를 요약한 것입니다. 여기서 파란색은 훈련에 사용할 수 있는 데이터의 80%를 나타내며, 교차 검증을 위해 5겹으로 나뉘고 빨간색은 홀드아웃 샘플을 나타냅니다.
 
-![Data Partitioning](./images/data-partitioning.png)
+![Data Partitioning](/assets/images/2024-07-21-UpStageAILAB-1st-Competition-ML-REGRESSION-post/data-partitioning.png)
 
 #### 데이터 분할 방법론
 - Main : 데이터 파티션은 무작위 샘플링을 통해 선택되었습니다.
@@ -397,7 +397,7 @@ DataRobot과 활용하여 Model Selection 을 수행한 결과를 바탕으로 L
 2. Keras Slim Residual Network Regressor
 3. Light Gradient Boosted Trees Regressor
 
-![DataRobot Learderboard result](./images/DataRobot-Learderboard-result.png)
+![DataRobot Learderboard result](/assets/images/2024-07-21-UpStageAILAB-1st-Competition-ML-REGRESSION-post/DataRobot-Learderboard-result.png)
 
 ### 5.2. eXtreme Gradient Boosted Trees Regressor(DataRobot)
 
@@ -412,7 +412,7 @@ XGBoost(Extreme Gradient Boosting)는 수많은 Kaggle 대회에서 우승한 GB
 - Early Stopping 지원:
 Early Stopping Extreme Gradient Boosting 모델은 또한 조기 중지를 사용하여 최적의 트리 수를 결정합니다. 조기 중지는 Early Stopping은 XGB 모델에 사용할 트리 수를 결정하는 방법입니다. 학습 데이터는 학습 세트와 테스트 세트로 분할되며, 각 반복마다 테스트 세트에서 모델의 점수가 매겨집니다. 200회 반복 동안 테스트 세트 성능이 저하되면 학습 절차가 중지되고 모델은 지금까지 본 최고의 트리에서 피팅을 반환합니다. 이 접근 방식은 모델이 과적합되고 추가 트리가 더 높은 정확도를 가져오지 않는다는 것이 분명한 지점을 지나 계속 진행하지 않음으로써 시간을 절약합니다.
 
-![DataRobot XGB](./images/DataRobot-XGB.png)
+![DataRobot XGB](/assets/images/2024-07-21-UpStageAILAB-1st-Competition-ML-REGRESSION-post/DataRobot-XGB.png)
 
 #### Modeling Process
 
@@ -446,11 +446,11 @@ Early Stopping Extreme Gradient Boosting 모델은 또한 조기 중지를 사�
 
 ##### Feature Impact
 
-![DataRobot XGB - FeatureImpact](./images/DataRobot-XGB-Feature-Impact.png)
+![DataRobot XGB - FeatureImpact](/assets/images/2024-07-21-UpStageAILAB-1st-Competition-ML-REGRESSION-post/DataRobot-XGB-Feature-Impact.png)
 
 ##### Word Cloud
 
-![DataRobot XGB - Word Cloud](./images/DataRobot-XGB-WordCloud.png)
+![DataRobot XGB - Word Cloud](/assets/images/2024-07-21-UpStageAILAB-1st-Competition-ML-REGRESSION-post/DataRobot-XGB-WordCloud.png)
 
 
 ### 5.3. Keras Slim Residual Network Regressor(DataRobot)
@@ -465,13 +465,13 @@ Keras의 Python API 클래스는 여러 숨겨진 계층이 있는 표준 신경
 자체 정규화 신경망은 배치 정규화를 사용하지 않고도 기울기가 사라지거나 폭발하는 것을 방지하기 위해 매우 구체적인 입력 이니셜라이저와 "Scaled Exponential Linear Units"라는 특수 활성화 함수를 사용합니다.
 Residual 네트워크에는 입력에서 출력으로의 직접 연결이 포함되어 있어 손실 함수를 원활하게 하고 네트워크를 더 효과적으로 최적화할 수 있습니다.
 
-![DataRobot Keras Slim RestNet](./images/DataRobot-Keras-Slim-RestNet.png)
+![DataRobot Keras Slim RestNet](/assets/images/2024-07-21-UpStageAILAB-1st-Competition-ML-REGRESSION-post/DataRobot-Keras-Slim-RestNet.png)
 
 #### Modeling Process
 
 ##### Neural Network
 
-![DataRobot Keras Slim RestNet - Neural Network](./images/DataRobot-Keras-Slim-RestNet-NeuralNetwork.png)
+![DataRobot Keras Slim RestNet - Neural Network](/assets/images/2024-07-21-UpStageAILAB-1st-Competition-ML-REGRESSION-post/DataRobot-Keras-Slim-RestNet-NeuralNetwork.png)
 
 ##### Hiperparameters
 
@@ -517,15 +517,15 @@ Residual 네트워크에는 입력에서 출력으로의 직접 연결이 포함
 
 ##### Training
 
-![DataRobot Keras Slim RestNet - Training](./images/DataRobot-Keras-Slim-RestNet-Training.png)
+![DataRobot Keras Slim RestNet - Training](/assets/images/2024-07-21-UpStageAILAB-1st-Competition-ML-REGRESSION-post/DataRobot-Keras-Slim-RestNet-Training.png)
 
 ##### Feature Impact
 
-![DataRobot Keras Slim RestNet - FeatureImpact](./images/DataRobot-Keras-Slim-RestNet-Feature-Impact.png)
+![DataRobot Keras Slim RestNet - FeatureImpact](/assets/images/2024-07-21-UpStageAILAB-1st-Competition-ML-REGRESSION-post/DataRobot-Keras-Slim-RestNet-Feature-Impact.png)
 
 ##### Word Cloud
 
-![DataRobot Keras Slim RestNet - Word Cloud](./images/DataRobot-Keras-Slim-RestNet-WordCloud.png)
+![DataRobot Keras Slim RestNet - Word Cloud](/assets/images/2024-07-21-UpStageAILAB-1st-Competition-ML-REGRESSION-post/DataRobot-Keras-Slim-RestNet-WordCloud.png)
 
 ### 5.4. Light Gradient Boosted Trees Regressor(DataRobot)
 
@@ -536,7 +536,7 @@ LightGBM은 그래디언트 부스팅 프레임워크입니다. 트리 기반 �
 - 그리드 검색 지원
 - Early Stopping 지원
 
-![DataRobot LightGBM](./images/DataRobot-LightGBM.png)
+![DataRobot LightGBM](/assets/images/2024-07-21-UpStageAILAB-1st-Competition-ML-REGRESSION-post/DataRobot-LightGBM.png)
 
 #### Modeling Process
 
@@ -569,11 +569,11 @@ LightGBM은 그래디언트 부스팅 프레임워크입니다. 트리 기반 �
 
 ##### Feature Impact
 
-![DataRobot Keras Slim RestNet - FeatureImpact](./images/DataRobot-LightGBM-Feature-Impact.png)
+![DataRobot Keras Slim RestNet - FeatureImpact](/assets/images/2024-07-21-UpStageAILAB-1st-Competition-ML-REGRESSION-post/DataRobot-LightGBM-Feature-Impact.png)
 
 ##### Word Cloud
 
-![DataRobot Keras Slim RestNet - Word Cloud](./images/DataRobot-LightGBM-WordCloud.png)
+![DataRobot Keras Slim RestNet - Word Cloud](/assets/images/2024-07-21-UpStageAILAB-1st-Competition-ML-REGRESSION-post/DataRobot-LightGBM-WordCloud.png)
 
 ### 5.5. PyTorch Residual Network Regressor(박석)
 
@@ -630,7 +630,7 @@ Residual Network는 입력을 모델의 출력과 더하여 학습을 돕는 잔
 
 이러한 사항들을 고려하며 Residual Network를 구축하면 더 나은 성능과 안정성을 얻을 수 있습니다.
 
-![TM1-PyTorch-ResNet-Regressor](./images/TM1-PyTorch-ResNet-Regressor.png)
+![TM1-PyTorch-ResNet-Regressor](/assets/images/2024-07-21-UpStageAILAB-1st-Competition-ML-REGRESSION-post/TM1-PyTorch-ResNet-Regressor.png)
 
 #### Modeling Process
 
@@ -649,7 +649,7 @@ Residual Network는 입력을 모델의 출력과 더하여 학습을 돕는 잔
 
 ##### Training 
 
-![TM1-PyTorch-ResNet-Regressor - Training](./images/TM1-PyTorch-ResNet-Regressor-Training.png)
+![TM1-PyTorch-ResNet-Regressor - Training](/assets/images/2024-07-21-UpStageAILAB-1st-Competition-ML-REGRESSION-post/TM1-PyTorch-ResNet-Regressor-Training.png)
 
 ##### Trial history
 1. 첫번째 시도 : Team3-DTQ_code.trial.first.py
@@ -884,7 +884,7 @@ TBD
 
 #### Final - Rank 3
 
-![UpStage-ML-Regression-ML3-LeaderBoard-Final](./images/UpStage-ML-Regression-ML3-LeaderBoard-Final.png)
+![UpStage-ML-Regression-ML3-LeaderBoard-Final](/assets/images/2024-07-21-UpStageAILAB-1st-Competition-ML-REGRESSION-post/UpStage-ML-Regression-ML3-LeaderBoard-Final.png)
 
 #### Submit history
 | Final Submission | Model Name              | Submitter | RMSE         | RMSE (Final)  | Created at           | Phase      |
