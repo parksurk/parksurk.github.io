@@ -39,6 +39,8 @@ The Document Type Classification competition challenged participants to develop 
 ### 4. Submission Format
 - Results to be submitted in CSV file format.
 
+![Computer vision and image recognition](https://images.unsplash.com/photo-1633412802994-5c058f151b66?w=800&h=400&fit=crop)
+
 ## Competition Timeline
 
 The project spanned from July 30, 2024, to August 11, 2024. Key dates included:
@@ -82,6 +84,8 @@ The dataset consisted of training data with 1,570 images across 17 classes, and 
 ### Data Processing
 - Implemented data augmentation and cleansing. Addressed mislabeled data issues, though limited due to unclear classification criteria from the competition organizers.
 
+![Image classification and processing](https://images.unsplash.com/photo-1561557944-6e7860d1a7eb?w=800&h=400&fit=crop)
+
 ## Model Selection and Development
 
 The team utilized DataRobot for initial model selection and focused on three top-performing machine learning models:
@@ -110,6 +114,8 @@ The team faced challenges in reducing the gap between Submit F1 Score and Test F
 
 4. **Ensemble Methods**  
    - Explored ensemble techniques, including voting methods across fold models, to improve overall performance.
+
+![Neural network and AI model](https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&h=400&fit=crop)
 
 ## Final Results and Lessons Learned
 

@@ -24,7 +24,9 @@ tags:
 
 Can you believe we’re already halfway through our journey together? It feels like just yesterday we embarked on this adventure, and now we’re navigating through the hot and humid days of summer. While the weather might be draining our energy and focus, I hope everyone can find the strength to push through, just as you have done so far.
 
-In this blog post, I want to take a moment to reflect on everything we’ve learned and achieved up to this point. This is an opportunity to revisit our initial goals, assess our progress, and plan how we can make the most of the remaining time.
+In this blog post, I want to take a moment to reflect on everything we've learned and achieved up to this point. This is an opportunity to revisit our initial goals, assess our progress, and plan how we can make the most of the remaining time.
+
+![Learning journey and reflection](https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=400&fit=crop)
 
 ## Recap of Our Learning Journey
 
@@ -51,7 +53,9 @@ In this blog post, I want to take a moment to reflect on everything we’ve lear
 
 ## Reflecting on Our Progress
 
-Looking back, it’s incredible to see how much we’ve accomplished. Each topic and project has built upon the last, creating a strong foundation for our future endeavors. Reflecting on our initial goals, it’s clear that we’ve made significant strides, but there is always room for improvement.
+Looking back, it's incredible to see how much we've accomplished. Each topic and project has built upon the last, creating a strong foundation for our future endeavors. Reflecting on our initial goals, it's clear that we've made significant strides, but there is always room for improvement.
+
+![Study and progress review](https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&h=400&fit=crop)
 
 ## Planning for the Future
 
@@ -60,6 +64,8 @@ As we move forward, let’s use this reflection as a tool to fine-tune our plans
 - Which areas do you feel most confident in, and which need more attention?
 - How can you maximize your remaining time to achieve your objectives?
 
-Let’s keep up the momentum and continue supporting each other. Together, we can overcome any challenges and make the most of this incredible learning opportunity.
+![Planning for the future](https://images.unsplash.com/photo-1513258496099-48168024aec0?w=800&h=400&fit=crop)
+
+Let's keep up the momentum and continue supporting each other. Together, we can overcome any challenges and make the most of this incredible learning opportunity.
 
 Keep pushing forward, and let’s make the second half of our journey just as successful as the first!

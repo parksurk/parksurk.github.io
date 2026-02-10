@@ -31,6 +31,8 @@ Our journey began with a fundamental question: What exactly is a document in the
 
 Understanding how these elements interplay is crucial for developing sophisticated document understanding systems.
 
+![Documents and paper analysis](https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&h=400&fit=crop)
+
 ## The Multifaceted Nature of Document Understanding
 
 One of the most exciting aspects of the class was exploring the various tasks encompassed by document understanding:
@@ -64,6 +66,8 @@ The Donut model blew my mind with its OCR-free approach. Key takeaways include:
 
 I was particularly impressed by how Donut learns to "read" documents in order, eliminating the need for separate OCR systems.
 
+![Digital document processing](https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&h=400&fit=crop)
+
 ### DocOwl 1.5: The Power of Large Language Models
 
 The latest advancement, DocOwl 1.5, showcases the integration of Large Language Models (LLMs) into document understanding:
@@ -79,6 +83,8 @@ This approach demonstrates how quickly the field is evolving, leveraging the pow
 As a student, I'm excited about the practical applications of these technologies. From automating data entry to enhancing accessibility of historical documents, the potential seems limitless. 
 
 Moreover, the rapid advancements in this field, particularly the integration of LLMs and the move towards OCR-free systems, hint at a future where AI can understand and interact with documents as proficiently as humans, if not more so.
+
+![AI technology and innovation](https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop)
 
 ## Conclusion: A Field Ripe with Opportunity
 

@@ -35,10 +35,14 @@ The goal of the competition was to create models capable of summarizing daily di
 
 The task was to train models that could predict the summaries based on dialogues involving 2-7 participants. We experimented with **deep learning models** like **BART, T5, and GPT**, aiming for high **ROUGE** scores, a standard metric for evaluating the quality of generated summaries by comparing them to reference texts.
 
+![Natural language processing and text](https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&h=400&fit=crop)
+
 ## **2. Team Structure and Collaboration**
 Our team's composition provided unique advantages:
 - **Strengths**: Diverse viewpoints, openness to AI assistant tools, and the ability to experiment with different methodologies.
 - **Challenges**: Limited experience in collaborative R&D using Git, Python, and machine learning domains.
+
+![Team collaboration in AI development](https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=400&fit=crop)
 
 ## **3. Strategy and Workflow**
 ### **3.1. Common Baseline Development**
@@ -69,5 +73,6 @@ Ultimately, our approach of blending **model optimization** with **collaborative
 - **Iteration**: Frequent experimentation and a willingness to embrace both successes and failures were key to improving our model’s performance.
 - **Adaptability**: Using AI tools like **ChatGPT** and **DeepL** allowed us to overcome limitations and develop efficient processes for dialogue summarization.
 
+![AI model performance and evaluation](https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800&h=400&fit=crop)
 
 This experience has been a significant learning journey, as I sharpened my machine learning skills and gained deeper insights into NLP techniques. The **Dialogue Summarization** competition not only pushed us to develop cutting-edge dialogue summarization models but also highlighted the importance of collaboration, iteration, and adaptability in real-world AI challenges.

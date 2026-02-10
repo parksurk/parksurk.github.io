@@ -46,6 +46,8 @@ Develop an accurate and generalized model to forecast market trends and support 
 ##### Submission Format
 Submit results as a CSV file with 9,272 rows of predicted apartment transaction prices.
 
+![Machine learning data analytics](https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800&h=400&fit=crop)
+
 ### 1.2. Timeline
 
 #### Project Duration
@@ -187,6 +189,8 @@ In the context of apartment transactions, RMSE quantitatively reflects how close
 #### Feature Selection
 *Selected input features and target feature details.*
 
+![Data analysis on screen](https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&h=400&fit=crop)
+
 ## 5. Modeling
 
 ### 5.1. Model Selection
@@ -313,6 +317,8 @@ To prevent overfitting, models are validated using k-fold cross-validation and a
 
 #### Final - Rank 3
 *Leaderboard final position and insights.*
+
+![Charts and performance metrics](https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=400&fit=crop)
 
 #### Submit History
 *Submission history with insights and learning points.*

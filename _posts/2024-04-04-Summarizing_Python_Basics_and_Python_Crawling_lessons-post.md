@@ -29,15 +29,21 @@ Python Basics and Python Crawling are two fundamental components of the UpStage 
 ## 2. Python Basics: A foundation for success
 Mastering Python Basics is essential to excel in the UpStage AI Lab boot camp course. Understanding variables, data types, control structures, and functions empowers students to solve complex problems efficiently. By grasping concepts like loops and modules, participants can streamline their code and enhance its readability. In this module, learners gain hands-on experience in coding tasks, laying a solid groundwork for more advanced topics. Strengthen your Python foundation to navigate the upcoming lessons with confidence and precision. Stay tuned for more insights on Python Crawling in the upcoming section.
 
+![Python programming code](https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=800&h=400&fit=crop)
+
 
 
 ## 3. Python Crawling: Extracting valuable data
 Python crawling is a crucial skill in the AI Lab boot camp course, enabling participants to extract valuable data from various websites and sources efficiently. By mastering web scraping techniques and utilizing libraries like Selenium, Webdriver-manager for Chrome. students can collect, analyze, and manipulate data to derive insights for AI applications. Understanding HTML structure and HTTP requests is key to navigating the web and accessing information programmatically. Through hands-on exercises and projects, learners will enhance their data acquisition skills and learn how to harness the power of web data for AI development. Stay tuned for practical tips and strategies to excel in Python crawling tasks.
 
+![Web data extraction and crawling](https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=400&fit=crop)
+
 
 
 ## 4. Implementing Python in real-world scenarios
 Now that you have honed your Python crawling skills in the AI Lab boot camp course, it's time to apply them in real-world scenarios. From automating repetitive tasks to building data-driven applications, Python offers a versatile platform for solving complex problems efficiently. Dive into projects that integrate web scraping with machine learning algorithms or develop custom tools to streamline data processing workflows. Embrace the practical application of Python in your projects and leverage your newfound knowledge to innovate and create impactful solutions. Stay tuned for insights on how to implement Python effectively and unlock its full potential in various real-world applications.
+
+![Real-world programming applications](https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=400&fit=crop)
 
 
 

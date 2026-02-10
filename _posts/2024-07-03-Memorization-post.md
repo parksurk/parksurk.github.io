@@ -37,6 +37,8 @@ Today, we'll dive into an essential aspect of deep learning: the phenomenon of m
 **Explaination:**
 Memorization in deep learning is when models overfit to the training data, learning details and noise rather than underlying patterns. This often results in poor performance on new, unseen data, highlighting a critical challenge in model training.
 
+![Deep learning neural network](https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&h=400&fit=crop)
+
 ---
 
 # 3: Causes of Memorization
@@ -80,6 +82,8 @@ Consider an image classification task with a small dataset. If a model memorizes
 
 **Explaination:**
 To mitigate memorization, several techniques can be employed: data augmentation to increase dataset diversity, dropout to prevent co-adaptation of neurons, regularization methods like L1 and L2 to penalize large weights, and cross-validation to ensure model robustness.
+
+![AI model training and optimization](https://images.unsplash.com/photo-1507146153580-69a1fe6d8aa1?w=800&h=400&fit=crop)
 
 ---
 
@@ -144,6 +148,8 @@ optimizer = torch.optim.SGD(model.parameters(), lr=0.01, weight_decay=1e-4)  # L
 
 **Explaination:**
 Cross-validation, particularly k-fold cross-validation, is an effective way to detect overfitting. It provides a more accurate estimate of model performance by training and validating the model on different subsets of the data, ensuring it generalizes well.
+
+![Artificial intelligence abstract concept](https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop)
 
 **Python Example:**
 ```python

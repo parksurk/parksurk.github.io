@@ -33,6 +33,8 @@ In the rapidly evolving field of artificial intelligence, a new paradigm is gain
 
 Data-Centric AI is an approach that emphasizes improving AI quality by focusing on data collection, preprocessing, labeling, and analysis. This method recognizes that the quality of data is often more crucial than the complexity of the model in achieving superior AI performance.
 
+![Data infrastructure and pipelines](https://images.unsplash.com/photo-1518186285589-2f7649de83e0?w=800&h=400&fit=crop)
+
 ## Course Overview
 
 The course is structured to provide a holistic understanding of Data-Centric AI, covering everything from theoretical foundations to practical applications. Here's what you can expect:
@@ -58,6 +60,8 @@ The course is structured to provide a holistic understanding of Data-Centric AI,
 - Creating effective data labeling guidelines
 - Hands-on experience with labeling tools for different domains (CV, NLP)
 
+![Data center and processing](https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=400&fit=crop)
+
 ### 4. Data Cleansing and Evaluation
 
 - Methods for identifying and correcting labeling errors
@@ -78,6 +82,8 @@ The course culminates in practical projects where students apply their knowledge
 - NLP Project: Named Entity Recognition (NER) task
 
 These projects cover the entire pipeline from data planning to model performance improvement using data-centric approaches.
+
+![Organized data management](https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=800&h=400&fit=crop)
 
 ## Why This Course Matters
 

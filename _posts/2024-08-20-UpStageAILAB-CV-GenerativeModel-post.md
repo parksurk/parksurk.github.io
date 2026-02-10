@@ -36,6 +36,8 @@ This course covers image generation models. By the end of this course, you'll be
 1. **Essential Knowledge:** Basic concepts in deep learning, learning methods like SGD, CNN, and image classification.
 2. **Additional Knowledge:** Familiarity with U-Net and Transformers will be helpful for a deeper understanding of the latest generation models.
 
+![AI and creative technology](https://images.unsplash.com/photo-1617791160505-6f00504e3519?w=800&h=400&fit=crop)
+
 ## Detailed Curriculum
 
 ### 1. Overview of Generation Models
@@ -170,6 +172,8 @@ Understand GANs and conditional generative models and implement them using PyTor
   **Further Readings (Optional/Recommended):**
   - Pix2Pix for image-to-image translation using conditional GANs.
 
+![Deep learning model architecture](https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=800&h=400&fit=crop)
+
 ### 5. Diffusion Models
 
 **Chapter Introduction:**  
@@ -209,6 +213,8 @@ Understand diffusion models and latent diffusion models, and perform text-to-ima
   **Overview:** Explore how to personalize a Stable Diffusion model using LoRA.  
   **Further Readings (Optional/Recommended):**
   - Textual Inversion and Dreambooth tutorials on Hugging Face.
+
+![Generative AI innovation](https://images.unsplash.com/photo-1655635643532-fa9ba2648cbe?w=800&h=400&fit=crop)
 
 ## Additional Personal Practice: Variants of GANs
 
