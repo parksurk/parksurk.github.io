@@ -1,0 +1,66 @@
+/* ==========================================================================
+   Neo Brutalism skin
+   ========================================================================== */
+
+/* Colors */
+$background-color: #FFF8E7 !default;
+$text-color: #1A1A1A !default;
+$primary-color: #FF6B6B !default;
+$border-color: #1A1A1A !default;
+$code-background-color: #FFFBEB !default;
+$code-background-color-dark: #FEF3C7 !default;
+$form-background-color: #FEF9C3 !default;
+$footer-background-color: #FBBF24 !default;
+
+$success-color: #22C55E !default;
+$warning-color: #F59E0B !default;
+$danger-color: #EF4444 !default;
+$info-color: #3B82F6 !default;
+$focus-color: $primary-color !default;
+$active-color: #FDE68A !default;
+
+/* Links */
+$link-color: #2563EB !default;
+$link-color-hover: #1D4ED8 !default;
+$link-color-visited: #7C3AED !default;
+$masthead-link-color: #1A1A1A !default;
+$masthead-link-color-hover: $primary-color !default;
+$navicon-link-color-hover: #FDE68A !default;
+
+/* Neo Brutalism essentials */
+$border-radius: 0px !default;
+$box-shadow: 4px 4px 0px #1A1A1A !default;
+
+/* Syntax highlighting (base16) */
+$base00: #1E293B !default;
+$base01: #334155 !default;
+$base02: #475569 !default;
+$base03: #64748B !default;
+$base04: #94A3B8 !default;
+$base05: #E2E8F0 !default;
+$base06: #F1F5F9 !default;
+$base07: #F8FAFC !default;
+$base08: #FF6B6B !default;
+$base09: #FBBF24 !default;
+$base0a: #FDE68A !default;
+$base0b: #34D399 !default;
+$base0c: #67E8F9 !default;
+$base0d: #60A5FA !default;
+$base0e: #C084FC !default;
+$base0f: #FB923C !default;
+
+.author__urls.social-icons .svg-inline--fa,
+.page__footer-follow .social-icons .svg-inline--fa {
+  color: inherit;
+}
+
+/* next/previous buttons */
+.pagination--pager {
+  color: #1A1A1A;
+  background-color: #FBBF24;
+  border: 2px solid #1A1A1A;
+
+  &:visited {
+    color: #1A1A1A;
+  }
+}
